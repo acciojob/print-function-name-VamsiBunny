@@ -1,5 +1,5 @@
-function Vamsi() {
+function functionName() {
   alert(arguments.callee.name);  
 }
 
-Vamsi(); 
+window.functionName = functionName;
