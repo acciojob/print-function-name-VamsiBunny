@@ -1,1 +1,5 @@
-//your JS code here. If required.
+function Vamsi() {
+  alert(arguments.callee.name);  
+}
+
+Vamsi(); 
